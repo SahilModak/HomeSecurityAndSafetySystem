@@ -1,0 +1,22 @@
+/**
+
+@mainpage Home Security And Safety System
+
+@author Ali Nanji (A.Nanji@uea.ac.uk)
+@author Sahil Modak (S.Modak@uea.ac.uk)
+
+Here you should tell us about how your application works.  If it's a game then how to play,
+any special rules you have, etc.  Also, explain any non-trivial
+design decisions you make, like how your ball gets its position
+updated, how you designed your buffer for readchar(), etc.  You should
+also comment on the stability of your code.  Any big bugs should be listed
+here.  Basically, anything that you think we need to know in general about
+your project should go here.
+
+Our project is a system that intends to protect a house by providing safety and security insights.
+The "Safety" aspect of the system alerts the user of dangers such as an active fire or water leak,
+both of which would damage a house.
+
+
+*/
+

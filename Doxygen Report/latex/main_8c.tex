@@ -1,0 +1,132 @@
+\hypertarget{main_8c}{}\doxysection{Core/\+Src/main.c File Reference}
+\label{main_8c}\index{Core/Src/main.c@{Core/Src/main.c}}
+
+
+\+: Main program body  
+
+
+{\ttfamily \#include \char`\"{}main.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}pinpad.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}status\+Page.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}common\+Methods.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}membrane.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}adc\+Sensors.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}servo\+Motor.\+h\char`\"{}}\newline
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group___m_a_i_n___enum_gab0196f6cab21b1e1e75e6950536846e4}{Curr\+Page}} \{ \mbox{\hyperlink{group___m_a_i_n___enum_ggab0196f6cab21b1e1e75e6950536846e4a9a510becc68d7d464bf2e06702319594}{PINPAD}}
+, \mbox{\hyperlink{group___m_a_i_n___enum_ggab0196f6cab21b1e1e75e6950536846e4ab15379688176677d49474245a6178d97}{STATUS}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum defined to keep track of current page on UI. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___m_a_i_n___private___functions_ga70af21c671abfcc773614a9a4f63d920}{System\+Clock\+\_\+\+Config}} (void)
+\begin{DoxyCompactList}\small\item\em System Clock Configuration. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___m_a_i_n___private___functions_ga840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\begin{DoxyCompactList}\small\item\em The application entry point. \end{DoxyCompactList}\item 
+void {\bfseries HAL\+\_\+\+UART\+\_\+\+Rx\+Cplt\+Callback} (UART\+\_\+\+Handle\+Type\+Def $\ast$huart)
+\item 
+void \mbox{\hyperlink{group___m_a_i_n___private___functions_ga1730ffe1e560465665eb47d9264826f9}{Error\+\_\+\+Handler}} (void)
+\begin{DoxyCompactList}\small\item\em This function is executed in case of error occurrence. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+MUTE} = 0
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+WATER\+\_\+\+DETECTED} = 25
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+WATER\+\_\+\+NOT\+\_\+\+DETECTED} = 26
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+FIRE\+\_\+\+DETECTED} = 50
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+FIRE\+\_\+\+NOT\+\_\+\+DETECTED} = 51
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+LOCKED} = 75
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+UNLOCKED} = 76
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+BELL\+\_\+\+PRESSED} = 100
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+BELL\+\_\+\+NOT\+\_\+\+PRESSED} = 101
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+TX\+\_\+\+DISCARD} = 125
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+RX\+\_\+\+MUTE} = 50
+\item 
+const uint8\+\_\+t {\bfseries BT\+\_\+\+RX\+\_\+\+DISCARD} = 100
+\item 
+const int {\bfseries SCREEN\+\_\+\+PIN\+\_\+\+LEN} = 4
+\item 
+const int {\bfseries MEMBRANE\+\_\+\+PIN\+\_\+\+LEN} = 4
+\item 
+const int {\bfseries DISCARDED\+\_\+\+WARNING\+\_\+\+WAIT\+\_\+\+PERIOD} = 5000
+\item 
+uint8\+\_\+t {\bfseries RX\+\_\+\+BUFFER}
+\item 
+CRC\+\_\+\+Handle\+Type\+Def {\bfseries hcrc}
+\item 
+DMA2\+D\+\_\+\+Handle\+Type\+Def {\bfseries hdma2d}
+\item 
+UART\+\_\+\+Handle\+Type\+Def {\bfseries huart7}
+\item 
+ADC\+\_\+\+Handle\+Type\+Def {\bfseries hadc}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio\+\_\+buzzer}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio\+\_\+touch\+Sensor}
+\item 
+TIM\+\_\+\+Handle\+Type\+Def {\bfseries htim3}
+\item 
+TS\+\_\+\+State\+Type\+Def {\bfseries ts}
+\item 
+char {\bfseries x\+Touch\+Str} \mbox{[}10\mbox{]}
+\item 
+bool {\bfseries water\+Detected} = false
+\item 
+bool {\bfseries fire\+Detected} = false
+\item 
+bool {\bfseries door\+Locked} = true
+\item 
+bool {\bfseries bell\+Pressed} = false
+\item 
+bool {\bfseries muted} = false
+\item 
+bool {\bfseries bt\+Previous\+Water\+Tr} = false
+\item 
+bool {\bfseries bt\+Previous\+Fire\+Tr} = false
+\item 
+bool {\bfseries bt\+Previous\+Lock\+Tr} = true
+\item 
+bool {\bfseries bt\+Previous\+Bell\+Tr} = false
+\item 
+int {\bfseries last\+Bt\+Tx} = 0
+\item 
+int {\bfseries last\+Bt\+Tx\+\_\+spam} = 0
+\item 
+bool {\bfseries show\+Water\+Warning} = false
+\item 
+bool {\bfseries show\+Fire\+Warning} = false
+\item 
+bool {\bfseries show\+Door\+Lock\+Warning} = false
+\item 
+bool {\bfseries show\+Door\+Bell\+Warning} = false
+\item 
+int {\bfseries door\+Lock\+\_\+discarded\+Warning\+Wait} = 0
+\item 
+int {\bfseries door\+Bell\+\_\+discarded\+Warning\+Wait} = 0
+\item 
+int {\bfseries water\+\_\+discarded\+Warning\+Wait} = 0
+\item 
+int {\bfseries fire\+\_\+discarded\+Warning\+Wait} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\+: Main program body 
+
+\begin{DoxyAuthor}{Author}
+\+: Sahil Modak \& Ali Nanji 
+\end{DoxyAuthor}
+Contains application entry point and main infinite loop 

@@ -1,0 +1,244 @@
+\begin{theindex}
+
+  \item {ADC}, \hyperpage{9}
+  \item {ADC\_Private\_Constants}, \hyperpage{9}
+  \item {ADC\_Private\_Functions}, \hyperpage{10}
+    \subitem {configReadADC}, \hyperpage{10}
+  \item {ADC\_Private\_Variables}, \hyperpage{10}
+  \item {ADC\_Public\_Functions}, \hyperpage{11}
+    \subitem {checkFireDetected}, \hyperpage{11}
+    \subitem {checkWaterDetected}, \hyperpage{11}
+    \subitem {initializeAdcSensors}, \hyperpage{12}
+
+  \indexspace
+
+  \item {checkCoords}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{25}
+  \item {checkFireDetected}
+    \subitem {ADC\_Public\_Functions}, \hyperpage{11}
+  \item {checkMemPin}
+    \subitem {MEMBRANE\_KEY\_PAD\_Public\_Functions}, \hyperpage{23}
+  \item {checkPassword}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{26}
+  \item {checkPin}
+    \subitem {PIN\_PAD\_PAGE\_Public\_Functions}, \hyperpage{30}
+  \item {checkStatusPageTouch}
+    \subitem {STATUS\_PAGE\_Public\_Functions}, \hyperpage{36}
+  \item {checkWaterDetected}
+    \subitem {ADC\_Public\_Functions}, \hyperpage{11}
+  \item {clearDigits}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{26}
+  \item {clearText}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{26}
+  \item {Common\_Methods}, \hyperpage{12}
+  \item {Common\_Methods\_Public\_Functions}, \hyperpage{12}
+    \subitem {enableClocks}, \hyperpage{13}
+    \subitem {isInRange}, \hyperpage{13}
+    \subitem {wait}, \hyperpage{13}
+  \item {configReadADC}
+    \subitem {ADC\_Private\_Functions}, \hyperpage{10}
+  \item {CORE}, \hyperpage{38}
+  \item {Core/Inc/adcSensors.h}, \hyperpage{41, 42}
+  \item {Core/Inc/commonMethods.h}, \hyperpage{42}
+  \item {Core/Inc/main.h}, \hyperpage{43}
+  \item {Core/Inc/membrane.h}, \hyperpage{44}
+  \item {Core/Inc/pinpad.h}, \hyperpage{45}
+  \item {Core/Inc/servoMotor.h}, \hyperpage{45, 46}
+  \item {Core/Inc/statusPage.h}, \hyperpage{46, 47}
+  \item {Core/Src/adcSensors.c}, \hyperpage{47}
+  \item {Core/Src/commonMethods.c}, \hyperpage{48}
+  \item {Core/Src/main.c}, \hyperpage{49}
+  \item {Core/Src/membrane.c}, \hyperpage{50}
+  \item {Core/Src/pinpad.c}, \hyperpage{52}
+  \item {Core/Src/servoMotor.c}, \hyperpage{53}
+  \item {Core/Src/statusPage.c}, \hyperpage{54}
+  \item {CurrPage}
+    \subitem {MAIN\_Enum}, \hyperpage{15}
+
+  \indexspace
+
+  \item {deleteDigit}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{27}
+  \item {DISCARD}
+    \subitem {STATUS\_PAGE\_Enum}, \hyperpage{35}
+  \item {dispCorrectPassword}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{27}
+  \item {dispDigit}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{28}
+  \item {dispDigitSpaces}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{28}
+  \item {DISPLAY}, \hyperpage{38}
+  \item {displayLockScreen}
+    \subitem {PIN\_PAD\_PAGE\_Public\_Functions}, \hyperpage{30}
+  \item {displayStatusPage}
+    \subitem {STATUS\_PAGE\_Public\_Functions}, \hyperpage{37}
+  \item {dispWrongPassword}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{28}
+  \item {DOOR\_LOCK}
+    \subitem {STATUS\_PAGE\_Enum}, \hyperpage{35}
+  \item {drawDigitBox}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{29}
+  \item {drawNumPad}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{29}
+
+  \indexspace
+
+  \item {enableClocks}
+    \subitem {Common\_Methods\_Public\_Functions}, \hyperpage{13}
+  \item {Error\_Handler}
+    \subitem {MAIN\_Private\_Functions}, \hyperpage{17}
+
+  \indexspace
+
+  \item {getMembraneNum}
+    \subitem {MEMBRANE\_KEY\_PAD\_Private\_Functions}, \hyperpage{21}
+  \item {gpio}
+    \subitem {pin}, \hyperpage{39}
+  \item {GPIOx}
+    \subitem {pin}, \hyperpage{39}
+
+  \indexspace
+
+  \item {initializeAdcSensors}
+    \subitem {ADC\_Public\_Functions}, \hyperpage{12}
+  \item {initializeDisplay}
+    \subitem {PIN\_PAD\_PAGE\_Public\_Functions}, \hyperpage{31}
+  \item {initializeMembrane}
+    \subitem {MEMBRANE\_KEY\_PAD\_Private\_Functions}, \hyperpage{21}
+  \item {initializeMembranePins}
+    \subitem {MEMBRANE\_KEY\_PAD\_Public\_Functions}, \hyperpage{23}
+  \item {initServoMotor}
+    \subitem {SERVO\_MOTOR\_Public\_Functions}, \hyperpage{32}
+  \item {isInRange}
+    \subitem {Common\_Methods\_Public\_Functions}, \hyperpage{13}
+
+  \indexspace
+
+  \item {LOCK}
+    \subitem {STATUS\_PAGE\_Enum}, \hyperpage{35}
+  \item {lockDoor}
+    \subitem {SERVO\_MOTOR\_Public\_Functions}, \hyperpage{33}
+
+  \indexspace
+
+  \item {MAIN}, \hyperpage{14}
+  \item {main}
+    \subitem {MAIN\_Private\_Functions}, \hyperpage{17}
+  \item {MAIN\_Enum}, \hyperpage{14}
+    \subitem {CurrPage}, \hyperpage{15}
+    \subitem {PINPAD}, \hyperpage{15}
+    \subitem {STATUS}, \hyperpage{15}
+  \item {MAIN\_Private\_Constants}, \hyperpage{15}
+  \item {MAIN\_Private\_FunctionPrototypes}, \hyperpage{16}
+  \item {MAIN\_Private\_Functions}, \hyperpage{16}
+    \subitem {Error\_Handler}, \hyperpage{17}
+    \subitem {main}, \hyperpage{17}
+    \subitem {SystemClock\_Config}, \hyperpage{17}
+  \item {MAIN\_Private\_Variables}, \hyperpage{15}
+  \item {MEMBRANE\_KEY\_PAD}, \hyperpage{19}
+  \item {MEMBRANE\_KEY\_PAD\_Private\_Constants}, \hyperpage{19}
+  \item {MEMBRANE\_KEY\_PAD\_Private\_Functions}, \hyperpage{20}
+    \subitem {getMembraneNum}, \hyperpage{21}
+    \subitem {initializeMembrane}, \hyperpage{21}
+    \subitem {readMembrane}, \hyperpage{22}
+    \subitem {resetMembranePins}, \hyperpage{22}
+  \item {MEMBRANE\_KEY\_PAD\_Private\_Variables}, \hyperpage{20}
+  \item {MEMBRANE\_KEY\_PAD\_Public\_Functions}, \hyperpage{22}
+    \subitem {checkMemPin}, \hyperpage{23}
+    \subitem {initializeMembranePins}, \hyperpage{23}
+  \item {MEMBRANE\_KEY\_PAD\_Structs}, \hyperpage{20}
+  \item {MUTE}
+    \subitem {STATUS\_PAGE\_Enum}, \hyperpage{35}
+
+  \indexspace
+
+  \item {NONE}
+    \subitem {STATUS\_PAGE\_Enum}, \hyperpage{35}
+  \item {numPadCoordinates}
+    \subitem {PIN\_PAD\_PAGE\_Private\_Constants}, \hyperpage{24}
+
+  \indexspace
+
+  \item {PB4\_Init}
+    \subitem {SERVO\_MOTOR\_Private\_Functions}, \hyperpage{32}
+  \item {PERIPHERALS}, \hyperpage{38}
+  \item {pin}, \hyperpage{39}
+    \subitem {gpio}, \hyperpage{39}
+    \subitem {GPIOx}, \hyperpage{39}
+  \item {PIN\_PAD\_PAGE}, \hyperpage{24}
+  \item {PIN\_PAD\_PAGE\_Private\_Constants}, \hyperpage{24}
+    \subitem {numPadCoordinates}, \hyperpage{24}
+  \item {PIN\_PAD\_PAGE\_Private\_Functions}, \hyperpage{25}
+    \subitem {checkCoords}, \hyperpage{25}
+    \subitem {checkPassword}, \hyperpage{26}
+    \subitem {clearDigits}, \hyperpage{26}
+    \subitem {clearText}, \hyperpage{26}
+    \subitem {deleteDigit}, \hyperpage{27}
+    \subitem {dispCorrectPassword}, \hyperpage{27}
+    \subitem {dispDigit}, \hyperpage{28}
+    \subitem {dispDigitSpaces}, \hyperpage{28}
+    \subitem {dispWrongPassword}, \hyperpage{28}
+    \subitem {drawDigitBox}, \hyperpage{29}
+    \subitem {drawNumPad}, \hyperpage{29}
+  \item {PIN\_PAD\_PAGE\_Private\_Variables}, \hyperpage{25}
+  \item {PIN\_PAD\_PAGE\_Public\_Functions}, \hyperpage{29}
+    \subitem {checkPin}, \hyperpage{30}
+    \subitem {displayLockScreen}, \hyperpage{30}
+    \subitem {initializeDisplay}, \hyperpage{31}
+  \item {PINPAD}
+    \subitem {MAIN\_Enum}, \hyperpage{15}
+
+  \indexspace
+
+  \item {readMembrane}
+    \subitem {MEMBRANE\_KEY\_PAD\_Private\_Functions}, \hyperpage{22}
+  \item {resetMembranePins}
+    \subitem {MEMBRANE\_KEY\_PAD\_Private\_Functions}, \hyperpage{22}
+
+  \indexspace
+
+  \item {SERVO\_MOTOR}, \hyperpage{31}
+  \item {SERVO\_MOTOR\_Private\_Functions}, \hyperpage{31}
+    \subitem {PB4\_Init}, \hyperpage{32}
+  \item {SERVO\_MOTOR\_Public\_Functions}, \hyperpage{32}
+    \subitem {initServoMotor}, \hyperpage{32}
+    \subitem {lockDoor}, \hyperpage{33}
+    \subitem {unlockDoor}, \hyperpage{33}
+  \item {STATUS}
+    \subitem {MAIN\_Enum}, \hyperpage{15}
+  \item {STATUS\_PAGE}, \hyperpage{34}
+  \item {STATUS\_PAGE\_Enum}, \hyperpage{35}
+    \subitem {DISCARD}, \hyperpage{35}
+    \subitem {DOOR\_LOCK}, \hyperpage{35}
+    \subitem {LOCK}, \hyperpage{35}
+    \subitem {MUTE}, \hyperpage{35}
+    \subitem {NONE}, \hyperpage{35}
+    \subitem {StatusPageButtons}, \hyperpage{35}
+  \item {STATUS\_PAGE\_Private\_Constants}, \hyperpage{34}
+  \item {STATUS\_PAGE\_Private\_Functions}, \hyperpage{35}
+    \subitem {statusPage\_checkButtonCoords}, \hyperpage{36}
+  \item {STATUS\_PAGE\_Private\_Variables}, \hyperpage{34}
+  \item {STATUS\_PAGE\_Public\_Functions}, \hyperpage{36}
+    \subitem {checkStatusPageTouch}, \hyperpage{36}
+    \subitem {displayStatusPage}, \hyperpage{37}
+    \subitem {updateStatusPage}, \hyperpage{37}
+  \item {statusPage\_checkButtonCoords}
+    \subitem {STATUS\_PAGE\_Private\_Functions}, \hyperpage{36}
+  \item {StatusPageButtons}
+    \subitem {STATUS\_PAGE\_Enum}, \hyperpage{35}
+  \item {SystemClock\_Config}
+    \subitem {MAIN\_Private\_Functions}, \hyperpage{17}
+
+  \indexspace
+
+  \item {unlockDoor}
+    \subitem {SERVO\_MOTOR\_Public\_Functions}, \hyperpage{33}
+  \item {updateStatusPage}
+    \subitem {STATUS\_PAGE\_Public\_Functions}, \hyperpage{37}
+
+  \indexspace
+
+  \item {wait}
+    \subitem {Common\_Methods\_Public\_Functions}, \hyperpage{13}
+
+\end{theindex}

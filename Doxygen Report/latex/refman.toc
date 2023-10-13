@@ -1,0 +1,179 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Home Security And Safety System}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Module Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Modules}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Data Structure Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Data Structures}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Module Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}ADC}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{9}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}ADC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Constants}{9}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{9}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}ADC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Variables}{10}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{10}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}ADC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{10}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{10}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Function Documentation}{10}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}configReadADC()}{10}{subsubsection.5.4.2.1}%
+\contentsline {section}{\numberline {5.5}ADC\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Public\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{11}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{11}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Function Documentation}{11}{subsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.1}checkFireDetected()}{11}{subsubsection.5.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.5.2.2}checkWaterDetected()}{11}{subsubsection.5.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.3}initializeAdcSensors()}{12}{subsubsection.5.5.2.3}%
+\contentsline {section}{\numberline {5.6}Common\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Methods}{12}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{12}{subsection.5.6.1}%
+\contentsline {section}{\numberline {5.7}Common\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Methods\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Public\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{12}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{13}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Function Documentation}{13}{subsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.1}enableClocks()}{13}{subsubsection.5.7.2.1}%
+\contentsline {subsubsection}{\numberline {5.7.2.2}isInRange()}{13}{subsubsection.5.7.2.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.3}wait()}{14}{subsubsection.5.7.2.3}%
+\contentsline {section}{\numberline {5.8}MAIN}{14}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Detailed Description}{14}{subsection.5.8.1}%
+\contentsline {section}{\numberline {5.9}MAIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enum}{14}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Detailed Description}{14}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}Enumeration Type Documentation}{15}{subsection.5.9.2}%
+\contentsline {subsubsection}{\numberline {5.9.2.1}CurrPage}{15}{subsubsection.5.9.2.1}%
+\contentsline {section}{\numberline {5.10}MAIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Constants}{15}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Detailed Description}{15}{subsection.5.10.1}%
+\contentsline {section}{\numberline {5.11}MAIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Variables}{15}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Detailed Description}{16}{subsection.5.11.1}%
+\contentsline {section}{\numberline {5.12}MAIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Function\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Prototypes}{16}{section.5.12}%
+\contentsline {subsection}{\numberline {5.12.1}Detailed Description}{16}{subsection.5.12.1}%
+\contentsline {section}{\numberline {5.13}MAIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{16}{section.5.13}%
+\contentsline {subsection}{\numberline {5.13.1}Detailed Description}{17}{subsection.5.13.1}%
+\contentsline {subsection}{\numberline {5.13.2}Function Documentation}{17}{subsection.5.13.2}%
+\contentsline {subsubsection}{\numberline {5.13.2.1}Error\_Handler()}{17}{subsubsection.5.13.2.1}%
+\contentsline {subsubsection}{\numberline {5.13.2.2}main()}{17}{subsubsection.5.13.2.2}%
+\contentsline {subsubsection}{\numberline {5.13.2.3}SystemClock\_Config()}{17}{subsubsection.5.13.2.3}%
+\contentsline {section}{\numberline {5.14}MEMBRANE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}KEY\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD}{19}{section.5.14}%
+\contentsline {subsection}{\numberline {5.14.1}Detailed Description}{19}{subsection.5.14.1}%
+\contentsline {section}{\numberline {5.15}MEMBRANE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}KEY\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Constants}{19}{section.5.15}%
+\contentsline {subsection}{\numberline {5.15.1}Detailed Description}{20}{subsection.5.15.1}%
+\contentsline {section}{\numberline {5.16}MEMBRANE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}KEY\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Variables}{20}{section.5.16}%
+\contentsline {subsection}{\numberline {5.16.1}Detailed Description}{20}{subsection.5.16.1}%
+\contentsline {section}{\numberline {5.17}MEMBRANE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}KEY\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Structs}{20}{section.5.17}%
+\contentsline {subsection}{\numberline {5.17.1}Detailed Description}{20}{subsection.5.17.1}%
+\contentsline {section}{\numberline {5.18}MEMBRANE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}KEY\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{20}{section.5.18}%
+\contentsline {subsection}{\numberline {5.18.1}Detailed Description}{21}{subsection.5.18.1}%
+\contentsline {subsection}{\numberline {5.18.2}Function Documentation}{21}{subsection.5.18.2}%
+\contentsline {subsubsection}{\numberline {5.18.2.1}getMembraneNum()}{21}{subsubsection.5.18.2.1}%
+\contentsline {subsubsection}{\numberline {5.18.2.2}initializeMembrane()}{21}{subsubsection.5.18.2.2}%
+\contentsline {subsubsection}{\numberline {5.18.2.3}readMembrane()}{22}{subsubsection.5.18.2.3}%
+\contentsline {subsubsection}{\numberline {5.18.2.4}resetMembranePins()}{22}{subsubsection.5.18.2.4}%
+\contentsline {section}{\numberline {5.19}MEMBRANE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}KEY\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Public\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{22}{section.5.19}%
+\contentsline {subsection}{\numberline {5.19.1}Detailed Description}{23}{subsection.5.19.1}%
+\contentsline {subsection}{\numberline {5.19.2}Function Documentation}{23}{subsection.5.19.2}%
+\contentsline {subsubsection}{\numberline {5.19.2.1}checkMemPin()}{23}{subsubsection.5.19.2.1}%
+\contentsline {subsubsection}{\numberline {5.19.2.2}initializeMembranePins()}{23}{subsubsection.5.19.2.2}%
+\contentsline {section}{\numberline {5.20}PIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE}{24}{section.5.20}%
+\contentsline {subsection}{\numberline {5.20.1}Detailed Description}{24}{subsection.5.20.1}%
+\contentsline {section}{\numberline {5.21}PIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Constants}{24}{section.5.21}%
+\contentsline {subsection}{\numberline {5.21.1}Detailed Description}{24}{subsection.5.21.1}%
+\contentsline {subsection}{\numberline {5.21.2}Variable Documentation}{24}{subsection.5.21.2}%
+\contentsline {subsubsection}{\numberline {5.21.2.1}numPadCoordinates}{24}{subsubsection.5.21.2.1}%
+\contentsline {section}{\numberline {5.22}PIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Variables}{25}{section.5.22}%
+\contentsline {subsection}{\numberline {5.22.1}Detailed Description}{25}{subsection.5.22.1}%
+\contentsline {section}{\numberline {5.23}PIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{25}{section.5.23}%
+\contentsline {subsection}{\numberline {5.23.1}Detailed Description}{25}{subsection.5.23.1}%
+\contentsline {subsection}{\numberline {5.23.2}Function Documentation}{25}{subsection.5.23.2}%
+\contentsline {subsubsection}{\numberline {5.23.2.1}checkCoords()}{25}{subsubsection.5.23.2.1}%
+\contentsline {subsubsection}{\numberline {5.23.2.2}checkPassword()}{26}{subsubsection.5.23.2.2}%
+\contentsline {subsubsection}{\numberline {5.23.2.3}clearDigits()}{26}{subsubsection.5.23.2.3}%
+\contentsline {subsubsection}{\numberline {5.23.2.4}clearText()}{27}{subsubsection.5.23.2.4}%
+\contentsline {subsubsection}{\numberline {5.23.2.5}deleteDigit()}{27}{subsubsection.5.23.2.5}%
+\contentsline {subsubsection}{\numberline {5.23.2.6}dispCorrectPassword()}{27}{subsubsection.5.23.2.6}%
+\contentsline {subsubsection}{\numberline {5.23.2.7}dispDigit()}{28}{subsubsection.5.23.2.7}%
+\contentsline {subsubsection}{\numberline {5.23.2.8}dispDigitSpaces()}{28}{subsubsection.5.23.2.8}%
+\contentsline {subsubsection}{\numberline {5.23.2.9}dispWrongPassword()}{28}{subsubsection.5.23.2.9}%
+\contentsline {subsubsection}{\numberline {5.23.2.10}drawDigitBox()}{29}{subsubsection.5.23.2.10}%
+\contentsline {subsubsection}{\numberline {5.23.2.11}drawNumPad()}{29}{subsubsection.5.23.2.11}%
+\contentsline {section}{\numberline {5.24}PIN\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAD\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Public\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{29}{section.5.24}%
+\contentsline {subsection}{\numberline {5.24.1}Detailed Description}{30}{subsection.5.24.1}%
+\contentsline {subsection}{\numberline {5.24.2}Function Documentation}{30}{subsection.5.24.2}%
+\contentsline {subsubsection}{\numberline {5.24.2.1}checkPin()}{30}{subsubsection.5.24.2.1}%
+\contentsline {subsubsection}{\numberline {5.24.2.2}displayLockScreen()}{30}{subsubsection.5.24.2.2}%
+\contentsline {subsubsection}{\numberline {5.24.2.3}initializeDisplay()}{31}{subsubsection.5.24.2.3}%
+\contentsline {section}{\numberline {5.25}SERVO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MOTOR}{31}{section.5.25}%
+\contentsline {subsection}{\numberline {5.25.1}Detailed Description}{31}{subsection.5.25.1}%
+\contentsline {section}{\numberline {5.26}SERVO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MOTOR\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{31}{section.5.26}%
+\contentsline {subsection}{\numberline {5.26.1}Detailed Description}{31}{subsection.5.26.1}%
+\contentsline {subsection}{\numberline {5.26.2}Function Documentation}{32}{subsection.5.26.2}%
+\contentsline {subsubsection}{\numberline {5.26.2.1}PB4\_Init()}{32}{subsubsection.5.26.2.1}%
+\contentsline {section}{\numberline {5.27}SERVO\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MOTOR\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Public\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{32}{section.5.27}%
+\contentsline {subsection}{\numberline {5.27.1}Detailed Description}{32}{subsection.5.27.1}%
+\contentsline {subsection}{\numberline {5.27.2}Function Documentation}{32}{subsection.5.27.2}%
+\contentsline {subsubsection}{\numberline {5.27.2.1}initServoMotor()}{32}{subsubsection.5.27.2.1}%
+\contentsline {subsubsection}{\numberline {5.27.2.2}lockDoor()}{33}{subsubsection.5.27.2.2}%
+\contentsline {subsubsection}{\numberline {5.27.2.3}unlockDoor()}{33}{subsubsection.5.27.2.3}%
+\contentsline {section}{\numberline {5.28}STATUS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE}{34}{section.5.28}%
+\contentsline {subsection}{\numberline {5.28.1}Detailed Description}{34}{subsection.5.28.1}%
+\contentsline {section}{\numberline {5.29}STATUS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Constants}{34}{section.5.29}%
+\contentsline {subsection}{\numberline {5.29.1}Detailed Description}{34}{subsection.5.29.1}%
+\contentsline {section}{\numberline {5.30}STATUS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Variables}{34}{section.5.30}%
+\contentsline {subsection}{\numberline {5.30.1}Detailed Description}{34}{subsection.5.30.1}%
+\contentsline {section}{\numberline {5.31}STATUS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Enum}{35}{section.5.31}%
+\contentsline {subsection}{\numberline {5.31.1}Detailed Description}{35}{subsection.5.31.1}%
+\contentsline {subsection}{\numberline {5.31.2}Enumeration Type Documentation}{35}{subsection.5.31.2}%
+\contentsline {subsubsection}{\numberline {5.31.2.1}StatusPageButtons}{35}{subsubsection.5.31.2.1}%
+\contentsline {section}{\numberline {5.32}STATUS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Private\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{35}{section.5.32}%
+\contentsline {subsection}{\numberline {5.32.1}Detailed Description}{35}{subsection.5.32.1}%
+\contentsline {subsection}{\numberline {5.32.2}Function Documentation}{36}{subsection.5.32.2}%
+\contentsline {subsubsection}{\numberline {5.32.2.1}statusPage\_checkButtonCoords()}{36}{subsubsection.5.32.2.1}%
+\contentsline {section}{\numberline {5.33}STATUS\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PAGE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Public\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions}{36}{section.5.33}%
+\contentsline {subsection}{\numberline {5.33.1}Detailed Description}{36}{subsection.5.33.1}%
+\contentsline {subsection}{\numberline {5.33.2}Function Documentation}{36}{subsection.5.33.2}%
+\contentsline {subsubsection}{\numberline {5.33.2.1}checkStatusPageTouch()}{36}{subsubsection.5.33.2.1}%
+\contentsline {subsubsection}{\numberline {5.33.2.2}displayStatusPage()}{37}{subsubsection.5.33.2.2}%
+\contentsline {subsubsection}{\numberline {5.33.2.3}updateStatusPage()}{37}{subsubsection.5.33.2.3}%
+\contentsline {section}{\numberline {5.34}CORE}{38}{section.5.34}%
+\contentsline {subsection}{\numberline {5.34.1}Detailed Description}{38}{subsection.5.34.1}%
+\contentsline {section}{\numberline {5.35}PERIPHERALS}{38}{section.5.35}%
+\contentsline {subsection}{\numberline {5.35.1}Detailed Description}{38}{subsection.5.35.1}%
+\contentsline {section}{\numberline {5.36}DISPLAY}{38}{section.5.36}%
+\contentsline {subsection}{\numberline {5.36.1}Detailed Description}{38}{subsection.5.36.1}%
+\contentsline {chapter}{\numberline {6}Data Structure Documentation}{39}{chapter.6}%
+\contentsline {section}{\numberline {6.1}pin Struct Reference}{39}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Field Documentation}{39}{subsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.1}gpio}{39}{subsubsection.6.1.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.2}GPIOx}{39}{subsubsection.6.1.1.2}%
+\contentsline {chapter}{\numberline {7}File Documentation}{41}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/adc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensors.h File Reference}{41}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{41}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}adc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensors.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{42}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/common\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Methods.h File Reference}{42}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{42}{subsection.7.3.1}%
+\contentsline {section}{\numberline {7.4}common\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Methods.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{42}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/main.h File Reference}{43}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{43}{subsection.7.5.1}%
+\contentsline {section}{\numberline {7.6}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{43}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/membrane.h File Reference}{44}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Detailed Description}{44}{subsection.7.7.1}%
+\contentsline {section}{\numberline {7.8}membrane.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{44}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/pinpad.h File Reference}{45}{section.7.9}%
+\contentsline {subsection}{\numberline {7.9.1}Detailed Description}{45}{subsection.7.9.1}%
+\contentsline {section}{\numberline {7.10}pinpad.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{45}{section.7.10}%
+\contentsline {section}{\numberline {7.11}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/servo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Motor.h File Reference}{45}{section.7.11}%
+\contentsline {subsection}{\numberline {7.11.1}Detailed Description}{46}{subsection.7.11.1}%
+\contentsline {section}{\numberline {7.12}servo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Motor.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{46}{section.7.12}%
+\contentsline {section}{\numberline {7.13}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inc/status\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Page.h File Reference}{46}{section.7.13}%
+\contentsline {subsection}{\numberline {7.13.1}Detailed Description}{47}{subsection.7.13.1}%
+\contentsline {section}{\numberline {7.14}status\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Page.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{47}{section.7.14}%
+\contentsline {section}{\numberline {7.15}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/adc\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sensors.c File Reference}{47}{section.7.15}%
+\contentsline {subsection}{\numberline {7.15.1}Detailed Description}{48}{subsection.7.15.1}%
+\contentsline {section}{\numberline {7.16}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/common\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Methods.c File Reference}{48}{section.7.16}%
+\contentsline {subsection}{\numberline {7.16.1}Detailed Description}{49}{subsection.7.16.1}%
+\contentsline {section}{\numberline {7.17}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/main.c File Reference}{49}{section.7.17}%
+\contentsline {subsection}{\numberline {7.17.1}Detailed Description}{50}{subsection.7.17.1}%
+\contentsline {section}{\numberline {7.18}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/membrane.c File Reference}{50}{section.7.18}%
+\contentsline {subsection}{\numberline {7.18.1}Detailed Description}{51}{subsection.7.18.1}%
+\contentsline {section}{\numberline {7.19}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/pinpad.c File Reference}{52}{section.7.19}%
+\contentsline {subsection}{\numberline {7.19.1}Detailed Description}{53}{subsection.7.19.1}%
+\contentsline {section}{\numberline {7.20}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/servo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Motor.c File Reference}{53}{section.7.20}%
+\contentsline {subsection}{\numberline {7.20.1}Detailed Description}{53}{subsection.7.20.1}%
+\contentsline {section}{\numberline {7.21}Core/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Src/status\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Page.c File Reference}{54}{section.7.21}%
+\contentsline {subsection}{\numberline {7.21.1}Detailed Description}{54}{subsection.7.21.1}%
+\contentsline {chapter}{Index}{55}{section*.66}%

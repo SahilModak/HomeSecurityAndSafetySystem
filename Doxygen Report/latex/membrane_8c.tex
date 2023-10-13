@@ -1,0 +1,63 @@
+\hypertarget{membrane_8c}{}\doxysection{Core/\+Src/membrane.c File Reference}
+\label{membrane_8c}\index{Core/Src/membrane.c@{Core/Src/membrane.c}}
+
+
+\+: Initializes and handles membrane keypad  
+
+
+{\ttfamily \#include \char`\"{}stm32f7xx\+\_\+hal.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}stm32f7xx\+\_\+hal\+\_\+gpio.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}common\+Methods.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}membrane.\+h\char`\"{}}\newline
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structpin}{pin}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_ga1130589886f09ef66240e609c62bd67b}{reset\+Membrane\+Pins}} (int start, int stop, GPIO\+\_\+\+Pin\+State value)
+\begin{DoxyCompactList}\small\item\em Resets Membrane pins to give value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gad1f3c7c1e06186c2591e6f5d77ee8938}{initialize\+Membrane}} (GPIO\+\_\+\+Init\+Type\+Def $\ast$gpio, GPIO\+\_\+\+Type\+Def $\ast$GPIOx, uint16\+\_\+t GPIO\+\_\+\+Pin, uint16\+\_\+t pos)
+\begin{DoxyCompactList}\small\item\em Initializes membrane keybad pins, to input or output. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gaa4517c73db23a65b0ff04cc95744134e}{get\+Membrane\+Num}} (int col, int row)
+\begin{DoxyCompactList}\small\item\em calculates number pressed depending on membrane keypad input \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gabd070d1ca3b1a5ef13e17826f5a1c6d4}{read\+Membrane}} ()
+\begin{DoxyCompactList}\small\item\em Checks which button on the membrane keypad is pressed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gadffecb6a54831e212b418c02e3b247d2}{initialize\+Membrane\+Pins}} (void)
+\begin{DoxyCompactList}\small\item\em Initializes all pins that will be used by the membrane keypad The membrane keypad uses pin D8 -\/ D15 on the board. It is configured as follows\+: Mode = Input/\+Output Pull = PULL DOWN Speed = SPEED HIGH. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gac590ecddcd9eb23aabbd29253c8d57b5}{check\+Mem\+Pin}} (int $\ast$current\+Mem\+Digit\+Count, int $\ast$current\+Mem\+Pin, int membrane\+Pin\+Len)
+\begin{DoxyCompactList}\small\item\em Checks if the PIN entered on the keypad is correct. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int {\bfseries curr\+Mem\+Pin} = 1234
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio8}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio9}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio10}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio11}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio12}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio13}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio14}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries gpio15}
+\item 
+struct \mbox{\hyperlink{structpin}{pin}} {\bfseries pin}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\+: Initializes and handles membrane keypad 
+
+\begin{DoxyAuthor}{Author}
+\+: Sahil Modak 
+\end{DoxyAuthor}
+This file contains all the methods required to initialize and handle the membrane keypad. The public functions\textquotesingle{} prototypes have been defined in \mbox{\hyperlink{membrane_8h}{membrane.\+h}} 

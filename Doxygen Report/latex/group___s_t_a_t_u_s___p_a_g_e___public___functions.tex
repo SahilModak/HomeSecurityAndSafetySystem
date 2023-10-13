@@ -1,0 +1,87 @@
+\hypertarget{group___s_t_a_t_u_s___p_a_g_e___public___functions}{}\doxysection{STATUS\+\_\+\+PAGE\+\_\+\+Public\+\_\+\+Functions}
+\label{group___s_t_a_t_u_s___p_a_g_e___public___functions}\index{STATUS\_PAGE\_Public\_Functions@{STATUS\_PAGE\_Public\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___public___functions_ga0a72a10b0341729cf5fa55f3657a3a5a}{display\+Status\+Page}} (bool muted)
+\begin{DoxyCompactList}\small\item\em Draw status page and all status labels. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___public___functions_gad659bf6f2b279ee1828e146aa1df0afc}{update\+Status\+Page}} (bool water\+Leak, bool fire, bool door\+Locked, bool bell\+Pressed, bool muted)
+\begin{DoxyCompactList}\small\item\em Update status page. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_gaef9dd589404e22463d93d474713c5bb7}{Status\+Page\+Buttons}} \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___public___functions_gaa06ae01139a52281def60880ce105064}{check\+Status\+Page\+Touch}} (void)
+\begin{DoxyCompactList}\small\item\em Check if any buttons have been pressed on the status page. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Public Functions defined in \mbox{\hyperlink{status_page_8c}{status\+Page.\+c}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___s_t_a_t_u_s___p_a_g_e___public___functions_gaa06ae01139a52281def60880ce105064}\label{group___s_t_a_t_u_s___p_a_g_e___public___functions_gaa06ae01139a52281def60880ce105064}} 
+\index{STATUS\_PAGE\_Public\_Functions@{STATUS\_PAGE\_Public\_Functions}!checkStatusPageTouch@{checkStatusPageTouch}}
+\index{checkStatusPageTouch@{checkStatusPageTouch}!STATUS\_PAGE\_Public\_Functions@{STATUS\_PAGE\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{checkStatusPageTouch()}{checkStatusPageTouch()}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_gaef9dd589404e22463d93d474713c5bb7}{Status\+Page\+Buttons}} check\+Status\+Page\+Touch (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Check if any buttons have been pressed on the status page. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Enum} & value of the button pressed \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___s_t_a_t_u_s___p_a_g_e___public___functions_ga0a72a10b0341729cf5fa55f3657a3a5a}\label{group___s_t_a_t_u_s___p_a_g_e___public___functions_ga0a72a10b0341729cf5fa55f3657a3a5a}} 
+\index{STATUS\_PAGE\_Public\_Functions@{STATUS\_PAGE\_Public\_Functions}!displayStatusPage@{displayStatusPage}}
+\index{displayStatusPage@{displayStatusPage}!STATUS\_PAGE\_Public\_Functions@{STATUS\_PAGE\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{displayStatusPage()}{displayStatusPage()}}
+{\footnotesize\ttfamily void display\+Status\+Page (\begin{DoxyParamCaption}\item[{bool}]{muted }\end{DoxyParamCaption})}
+
+
+
+Draw status page and all status labels. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em muted} & Boolean indicating if device is currently muted or not \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___s_t_a_t_u_s___p_a_g_e___public___functions_gad659bf6f2b279ee1828e146aa1df0afc}\label{group___s_t_a_t_u_s___p_a_g_e___public___functions_gad659bf6f2b279ee1828e146aa1df0afc}} 
+\index{STATUS\_PAGE\_Public\_Functions@{STATUS\_PAGE\_Public\_Functions}!updateStatusPage@{updateStatusPage}}
+\index{updateStatusPage@{updateStatusPage}!STATUS\_PAGE\_Public\_Functions@{STATUS\_PAGE\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{updateStatusPage()}{updateStatusPage()}}
+{\footnotesize\ttfamily void update\+Status\+Page (\begin{DoxyParamCaption}\item[{bool}]{water\+Leak,  }\item[{bool}]{fire,  }\item[{bool}]{door\+Locked,  }\item[{bool}]{bell\+Pressed,  }\item[{bool}]{muted }\end{DoxyParamCaption})}
+
+
+
+Update status page. 
+
+Update warnings for each label and the mute button (from mute to unmute or vice versa)
+
+
+\begin{DoxyParams}{Parameters}
+{\em water\+Leak} & Boolean indicating if the water leak warning needs to be displayed \\
+\hline
+{\em fire} & Boolean indicating if the fire warning needs to be displayed \\
+\hline
+{\em door\+Locked} & Boolean indicating if the door is locked or not \\
+\hline
+{\em bell\+Pressed} & Boolean indicating if the bell is pressed or not \\
+\hline
+{\em muted} & Boolean indicating if the user has muted the device or not \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

@@ -1,0 +1,263 @@
+\hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions}{}\doxysection{PIN\+\_\+\+PAD\+\_\+\+PAGE\+\_\+\+Private\+\_\+\+Functions}
+\label{group___p_i_n___p_a_d___p_a_g_e___private___functions}\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga8360df4235a0d8a2ae05f0e1e68b5e89}{draw\+Digit\+Box}} (int x, int y, int digit)
+\begin{DoxyCompactList}\small\item\em Draw a rectangle for a key on the pin pad. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_gafca2b39219fff35eba5dec8e4b788887}{check\+Coords}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Check the coordinate of the user\textquotesingle{}s touch to see what key has been pressed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga4bb808a6c85923cdc17498893ae3eb46}{draw\+Num\+Pad}} (void)
+\begin{DoxyCompactList}\small\item\em Draw the entire num pad. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga9ef255ff6e3940471f0e9acc33620dd6}{disp\+Digit\+Spaces}} (void)
+\begin{DoxyCompactList}\small\item\em Draw dashes to display current pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga2eaac8039fdbd117b59e8bf758c27ba4}{disp\+Digit}} (int num, int current\+Disp\+Digit\+Count)
+\begin{DoxyCompactList}\small\item\em Display the digit the user touched on. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga88dcec5bb85eeed1fcb91700fc0998be}{delete\+Digit}} (int current\+Disp\+Digit\+Count)
+\begin{DoxyCompactList}\small\item\em Delete one digit from current pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga59a4d54c130e88b3476b42b393f37411}{clear\+Digits}} (void)
+\begin{DoxyCompactList}\small\item\em Delete all digits from current pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga4f6c32e31e623893b500358bd9c41e04}{clear\+Text}} (void)
+\begin{DoxyCompactList}\small\item\em Clear any banner. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga75ea7e358615cf030c366c9ea0b83804}{disp\+Wrong\+Password}} (void)
+\begin{DoxyCompactList}\small\item\em Display \char`\"{}\+Wrong Password\char`\"{} banner. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga81b367d31757e0b6f5a3673cf2f112f6}{disp\+Correct\+Password}} (void)
+\begin{DoxyCompactList}\small\item\em Display \char`\"{}\+Correct Password\char`\"{} banner. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga8992143d3cca2452b3d6b47096c6647a}{check\+Password}} (int current\+Disp\+Digits\mbox{[}$\,$\mbox{]}, int $\ast$current\+Disp\+Digit\+Count)
+\begin{DoxyCompactList}\small\item\em Check if the currently input pin is correct. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Private functions defined in \mbox{\hyperlink{pinpad_8c}{pinpad.\+c}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_gafca2b39219fff35eba5dec8e4b788887}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_gafca2b39219fff35eba5dec8e4b788887}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!checkCoords@{checkCoords}}
+\index{checkCoords@{checkCoords}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{checkCoords()}{checkCoords()}}
+{\footnotesize\ttfamily int check\+Coords (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Check the coordinate of the user\textquotesingle{}s touch to see what key has been pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X position of the touch \\
+\hline
+{\em y} & Y position of the touch \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Key} & touched \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga8992143d3cca2452b3d6b47096c6647a}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga8992143d3cca2452b3d6b47096c6647a}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!checkPassword@{checkPassword}}
+\index{checkPassword@{checkPassword}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{checkPassword()}{checkPassword()}}
+{\footnotesize\ttfamily bool check\+Password (\begin{DoxyParamCaption}\item[{int}]{current\+Disp\+Digits\mbox{[}$\,$\mbox{]},  }\item[{int $\ast$}]{current\+Disp\+Digit\+Count }\end{DoxyParamCaption})}
+
+
+
+Check if the currently input pin is correct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Disp\+Digits} & Array of currently input pin digits \\
+\hline
+{\em current\+Disp\+Digit\+Count} & Pointer to current pin length count \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em True} & if password is correct, false otherwise \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga59a4d54c130e88b3476b42b393f37411}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga59a4d54c130e88b3476b42b393f37411}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!clearDigits@{clearDigits}}
+\index{clearDigits@{clearDigits}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{clearDigits()}{clearDigits()}}
+{\footnotesize\ttfamily void clear\+Digits (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Delete all digits from current pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga4f6c32e31e623893b500358bd9c41e04}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga4f6c32e31e623893b500358bd9c41e04}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!clearText@{clearText}}
+\index{clearText@{clearText}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{clearText()}{clearText()}}
+{\footnotesize\ttfamily void clear\+Text (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Clear any banner. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga88dcec5bb85eeed1fcb91700fc0998be}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga88dcec5bb85eeed1fcb91700fc0998be}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!deleteDigit@{deleteDigit}}
+\index{deleteDigit@{deleteDigit}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{deleteDigit()}{deleteDigit()}}
+{\footnotesize\ttfamily void delete\+Digit (\begin{DoxyParamCaption}\item[{int}]{current\+Disp\+Digit\+Count }\end{DoxyParamCaption})}
+
+
+
+Delete one digit from current pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Disp\+Digit\+Count} & Position to delete number from \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga81b367d31757e0b6f5a3673cf2f112f6}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga81b367d31757e0b6f5a3673cf2f112f6}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!dispCorrectPassword@{dispCorrectPassword}}
+\index{dispCorrectPassword@{dispCorrectPassword}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{dispCorrectPassword()}{dispCorrectPassword()}}
+{\footnotesize\ttfamily void disp\+Correct\+Password (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Display \char`\"{}\+Correct Password\char`\"{} banner. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga2eaac8039fdbd117b59e8bf758c27ba4}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga2eaac8039fdbd117b59e8bf758c27ba4}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!dispDigit@{dispDigit}}
+\index{dispDigit@{dispDigit}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{dispDigit()}{dispDigit()}}
+{\footnotesize\ttfamily void disp\+Digit (\begin{DoxyParamCaption}\item[{int}]{num,  }\item[{int}]{current\+Disp\+Digit\+Count }\end{DoxyParamCaption})}
+
+
+
+Display the digit the user touched on. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & Number to display \\
+\hline
+{\em current\+Disp\+Digit\+Count} & Position to display number at \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga9ef255ff6e3940471f0e9acc33620dd6}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga9ef255ff6e3940471f0e9acc33620dd6}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!dispDigitSpaces@{dispDigitSpaces}}
+\index{dispDigitSpaces@{dispDigitSpaces}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{dispDigitSpaces()}{dispDigitSpaces()}}
+{\footnotesize\ttfamily void disp\+Digit\+Spaces (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Draw dashes to display current pin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga75ea7e358615cf030c366c9ea0b83804}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga75ea7e358615cf030c366c9ea0b83804}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!dispWrongPassword@{dispWrongPassword}}
+\index{dispWrongPassword@{dispWrongPassword}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{dispWrongPassword()}{dispWrongPassword()}}
+{\footnotesize\ttfamily void disp\+Wrong\+Password (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Display \char`\"{}\+Wrong Password\char`\"{} banner. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga8360df4235a0d8a2ae05f0e1e68b5e89}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga8360df4235a0d8a2ae05f0e1e68b5e89}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!drawDigitBox@{drawDigitBox}}
+\index{drawDigitBox@{drawDigitBox}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{drawDigitBox()}{drawDigitBox()}}
+{\footnotesize\ttfamily void draw\+Digit\+Box (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{digit }\end{DoxyParamCaption})}
+
+
+
+Draw a rectangle for a key on the pin pad. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Top left x position \\
+\hline
+{\em y} & Top Left y position \\
+\hline
+{\em digit} & Number to display inside rectagle \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga4bb808a6c85923cdc17498893ae3eb46}\label{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga4bb808a6c85923cdc17498893ae3eb46}} 
+\index{PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}!drawNumPad@{drawNumPad}}
+\index{drawNumPad@{drawNumPad}!PIN\_PAD\_PAGE\_Private\_Functions@{PIN\_PAD\_PAGE\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{drawNumPad()}{drawNumPad()}}
+{\footnotesize\ttfamily void draw\+Num\+Pad (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Draw the entire num pad. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

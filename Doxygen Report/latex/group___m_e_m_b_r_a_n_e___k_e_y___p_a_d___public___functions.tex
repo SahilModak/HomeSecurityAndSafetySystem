@@ -1,0 +1,59 @@
+\hypertarget{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions}{}\doxysection{MEMBRANE\+\_\+\+KEY\+\_\+\+PAD\+\_\+\+Public\+\_\+\+Functions}
+\label{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions}\index{MEMBRANE\_KEY\_PAD\_Public\_Functions@{MEMBRANE\_KEY\_PAD\_Public\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gadffecb6a54831e212b418c02e3b247d2}{initialize\+Membrane\+Pins}} (void)
+\begin{DoxyCompactList}\small\item\em Initializes all pins that will be used by the membrane keypad The membrane keypad uses pin D8 -\/ D15 on the board. It is configured as follows\+: Mode = Input/\+Output Pull = PULL DOWN Speed = SPEED HIGH. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gac590ecddcd9eb23aabbd29253c8d57b5}{check\+Mem\+Pin}} (int $\ast$current\+Mem\+Digit\+Count, int $\ast$current\+Mem\+Pin, int membrane\+Pin\+Len)
+\begin{DoxyCompactList}\small\item\em Checks if the PIN entered on the keypad is correct. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Public Functions defined in \mbox{\hyperlink{membrane_8c}{membrane.\+c}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gac590ecddcd9eb23aabbd29253c8d57b5}\label{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gac590ecddcd9eb23aabbd29253c8d57b5}} 
+\index{MEMBRANE\_KEY\_PAD\_Public\_Functions@{MEMBRANE\_KEY\_PAD\_Public\_Functions}!checkMemPin@{checkMemPin}}
+\index{checkMemPin@{checkMemPin}!MEMBRANE\_KEY\_PAD\_Public\_Functions@{MEMBRANE\_KEY\_PAD\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{checkMemPin()}{checkMemPin()}}
+{\footnotesize\ttfamily bool check\+Mem\+Pin (\begin{DoxyParamCaption}\item[{int $\ast$}]{current\+Mem\+Digit\+Count,  }\item[{int $\ast$}]{current\+Mem\+Pin,  }\item[{int}]{membrane\+Pin\+Len }\end{DoxyParamCaption})}
+
+
+
+Checks if the PIN entered on the keypad is correct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Mem\+Digit\+Count} & Pointer to the count of digits currently entered \\
+\hline
+{\em current\+Mem\+Pin} & Current value of Pin entered \\
+\hline
+{\em membrane\+Pin\+Len} & Length of PIN to be verified \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em True} & if PIN is correct, False otherwise \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gadffecb6a54831e212b418c02e3b247d2}\label{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gadffecb6a54831e212b418c02e3b247d2}} 
+\index{MEMBRANE\_KEY\_PAD\_Public\_Functions@{MEMBRANE\_KEY\_PAD\_Public\_Functions}!initializeMembranePins@{initializeMembranePins}}
+\index{initializeMembranePins@{initializeMembranePins}!MEMBRANE\_KEY\_PAD\_Public\_Functions@{MEMBRANE\_KEY\_PAD\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{initializeMembranePins()}{initializeMembranePins()}}
+{\footnotesize\ttfamily void initialize\+Membrane\+Pins (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initializes all pins that will be used by the membrane keypad The membrane keypad uses pin D8 -\/ D15 on the board. It is configured as follows\+: Mode = Input/\+Output Pull = PULL DOWN Speed = SPEED HIGH. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

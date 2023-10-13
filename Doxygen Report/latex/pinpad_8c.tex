@@ -1,0 +1,73 @@
+\hypertarget{pinpad_8c}{}\doxysection{Core/\+Src/pinpad.c File Reference}
+\label{pinpad_8c}\index{Core/Src/pinpad.c@{Core/Src/pinpad.c}}
+
+
+\+: Handles Pin Pad page of the UI  
+
+
+{\ttfamily \#include \char`\"{}pinpad.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stm32f7xx\+\_\+hal.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}stm32746g\+\_\+discovery\+\_\+lcd.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}stm32746g\+\_\+discovery\+\_\+ts.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}common\+Methods.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries wait\+\_\+delay}~HAL\+\_\+\+Delay
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga8360df4235a0d8a2ae05f0e1e68b5e89}{draw\+Digit\+Box}} (int x, int y, int digit)
+\begin{DoxyCompactList}\small\item\em Draw a rectangle for a key on the pin pad. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_gafca2b39219fff35eba5dec8e4b788887}{check\+Coords}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Check the coordinate of the user\textquotesingle{}s touch to see what key has been pressed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga4bb808a6c85923cdc17498893ae3eb46}{draw\+Num\+Pad}} (void)
+\begin{DoxyCompactList}\small\item\em Draw the entire num pad. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga9ef255ff6e3940471f0e9acc33620dd6}{disp\+Digit\+Spaces}} (void)
+\begin{DoxyCompactList}\small\item\em Draw dashes to display current pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga2eaac8039fdbd117b59e8bf758c27ba4}{disp\+Digit}} (int num, int current\+Disp\+Digit\+Count)
+\begin{DoxyCompactList}\small\item\em Display the digit the user touched on. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga88dcec5bb85eeed1fcb91700fc0998be}{delete\+Digit}} (int current\+Disp\+Digit\+Count)
+\begin{DoxyCompactList}\small\item\em Delete one digit from current pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga59a4d54c130e88b3476b42b393f37411}{clear\+Digits}} (void)
+\begin{DoxyCompactList}\small\item\em Delete all digits from current pin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga4f6c32e31e623893b500358bd9c41e04}{clear\+Text}} (void)
+\begin{DoxyCompactList}\small\item\em Clear any banner. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga75ea7e358615cf030c366c9ea0b83804}{disp\+Wrong\+Password}} (void)
+\begin{DoxyCompactList}\small\item\em Display \char`\"{}\+Wrong Password\char`\"{} banner. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga81b367d31757e0b6f5a3673cf2f112f6}{disp\+Correct\+Password}} (void)
+\begin{DoxyCompactList}\small\item\em Display \char`\"{}\+Correct Password\char`\"{} banner. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___functions_ga8992143d3cca2452b3d6b47096c6647a}{check\+Password}} (int current\+Disp\+Digits\mbox{[}$\,$\mbox{]}, int $\ast$current\+Disp\+Digit\+Count)
+\begin{DoxyCompactList}\small\item\em Check if the currently input pin is correct. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___public___functions_ga0859a23429b90d41b6d2566c922b1614}{display\+Lock\+Screen}} (void)
+\begin{DoxyCompactList}\small\item\em Draw the entire lock screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___public___functions_gae8b457bf227b91609668edd5c3040f1d}{initialize\+Display}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize everything needed for LCD and touch. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___public___functions_ga19aa8e92232b6efbc8147c5586e16fd0}{check\+Pin}} (int $\ast$current\+Disp\+Digit\+Count, int $\ast$current\+Disp\+Digits)
+\begin{DoxyCompactList}\small\item\em Wrapper method called from main loop to check current pin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int {\bfseries disp\+Digits\+Limit} = 4
+\item 
+const int {\bfseries num\+Pad\+Box\+Width} = 157
+\item 
+const int {\bfseries num\+Pad\+Box\+Height} = 38
+\item 
+const int {\bfseries correct\+Password} \mbox{[}4\mbox{]} = \{ 0, 0, 0, 0\}
+\item 
+const int \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___private___constants_gacacdb6449de2a9835fd13fd4a4f2d460}{num\+Pad\+Coordinates}} \mbox{[}10\mbox{]}\mbox{[}3\mbox{]}
+\item 
+TS\+\_\+\+State\+Type\+Def {\bfseries tsc\+\_\+state}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\+: Handles Pin Pad page of the UI 
+
+\begin{DoxyAuthor}{Author}
+\+: Ali Nanji 
+\end{DoxyAuthor}
+This file contains all the methods required to manage the Pin Pad page of the UI. The pin pad page displays a pin pad where if the user enters the correct pin, they are directed to the status page. The public functions\textquotesingle{} prototypes have been defined in \mbox{\hyperlink{pinpad_8h}{pinpad.\+h}} 

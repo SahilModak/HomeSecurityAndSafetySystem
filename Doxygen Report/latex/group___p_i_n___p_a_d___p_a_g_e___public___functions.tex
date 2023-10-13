@@ -1,0 +1,81 @@
+\hypertarget{group___p_i_n___p_a_d___p_a_g_e___public___functions}{}\doxysection{PIN\+\_\+\+PAD\+\_\+\+PAGE\+\_\+\+Public\+\_\+\+Functions}
+\label{group___p_i_n___p_a_d___p_a_g_e___public___functions}\index{PIN\_PAD\_PAGE\_Public\_Functions@{PIN\_PAD\_PAGE\_Public\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___public___functions_ga0859a23429b90d41b6d2566c922b1614}{display\+Lock\+Screen}} (void)
+\begin{DoxyCompactList}\small\item\em Draw the entire lock screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___public___functions_gae8b457bf227b91609668edd5c3040f1d}{initialize\+Display}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize everything needed for LCD and touch. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___p_i_n___p_a_d___p_a_g_e___public___functions_ga19aa8e92232b6efbc8147c5586e16fd0}{check\+Pin}} (int $\ast$current\+Disp\+Digit\+Count, int $\ast$current\+Disp\+Digits)
+\begin{DoxyCompactList}\small\item\em Wrapper method called from main loop to check current pin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Public functions defined in \mbox{\hyperlink{pinpad_8c}{pinpad.\+c}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___public___functions_ga19aa8e92232b6efbc8147c5586e16fd0}\label{group___p_i_n___p_a_d___p_a_g_e___public___functions_ga19aa8e92232b6efbc8147c5586e16fd0}} 
+\index{PIN\_PAD\_PAGE\_Public\_Functions@{PIN\_PAD\_PAGE\_Public\_Functions}!checkPin@{checkPin}}
+\index{checkPin@{checkPin}!PIN\_PAD\_PAGE\_Public\_Functions@{PIN\_PAD\_PAGE\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{checkPin()}{checkPin()}}
+{\footnotesize\ttfamily bool check\+Pin (\begin{DoxyParamCaption}\item[{int $\ast$}]{current\+Disp\+Digit\+Count,  }\item[{int $\ast$}]{current\+Disp\+Digits }\end{DoxyParamCaption})}
+
+
+
+Wrapper method called from main loop to check current pin. 
+
+This method contains all the main logic for the Pin Pad page. It checks if the user has currently tapped any key and does corresponding action. The method also remains in a loop until the user stops touching the screen to prevent unintentional touches.
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Disp\+Digits} & Array of currently input pin digits \\
+\hline
+{\em current\+Disp\+Digit\+Count} & Pointer to current pin length count \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___public___functions_ga0859a23429b90d41b6d2566c922b1614}\label{group___p_i_n___p_a_d___p_a_g_e___public___functions_ga0859a23429b90d41b6d2566c922b1614}} 
+\index{PIN\_PAD\_PAGE\_Public\_Functions@{PIN\_PAD\_PAGE\_Public\_Functions}!displayLockScreen@{displayLockScreen}}
+\index{displayLockScreen@{displayLockScreen}!PIN\_PAD\_PAGE\_Public\_Functions@{PIN\_PAD\_PAGE\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{displayLockScreen()}{displayLockScreen()}}
+{\footnotesize\ttfamily void display\+Lock\+Screen (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Draw the entire lock screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___p_i_n___p_a_d___p_a_g_e___public___functions_gae8b457bf227b91609668edd5c3040f1d}\label{group___p_i_n___p_a_d___p_a_g_e___public___functions_gae8b457bf227b91609668edd5c3040f1d}} 
+\index{PIN\_PAD\_PAGE\_Public\_Functions@{PIN\_PAD\_PAGE\_Public\_Functions}!initializeDisplay@{initializeDisplay}}
+\index{initializeDisplay@{initializeDisplay}!PIN\_PAD\_PAGE\_Public\_Functions@{PIN\_PAD\_PAGE\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{initializeDisplay()}{initializeDisplay()}}
+{\footnotesize\ttfamily void initialize\+Display (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize everything needed for LCD and touch. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

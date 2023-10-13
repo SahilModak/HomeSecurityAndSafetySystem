@@ -1,0 +1,61 @@
+\hypertarget{status_page_8c}{}\doxysection{Core/\+Src/status\+Page.c File Reference}
+\label{status_page_8c}\index{Core/Src/statusPage.c@{Core/Src/statusPage.c}}
+
+
+\+: Handles Status page of the UI  
+
+
+{\ttfamily \#include \char`\"{}status\+Page.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}common\+Methods.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stm32f7xx\+\_\+hal.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}stm32746g\+\_\+discovery\+\_\+lcd.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}stm32746g\+\_\+discovery\+\_\+ts.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries wait\+\_\+delay}~HAL\+\_\+\+Delay
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_gaef9dd589404e22463d93d474713c5bb7}{Status\+Page\+Buttons}} \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___private___functions_ga9392ef09c1a5326736c6e1a52a5a65b7}{status\+Page\+\_\+check\+Button\+Coords}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Check what button has been clicked on by the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___public___functions_ga0a72a10b0341729cf5fa55f3657a3a5a}{display\+Status\+Page}} (bool muted)
+\begin{DoxyCompactList}\small\item\em Draw status page and all status labels. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___public___functions_gad659bf6f2b279ee1828e146aa1df0afc}{update\+Status\+Page}} (bool water\+Leak, bool fire, bool door\+Locked, bool bell\+Pressed, bool muted)
+\begin{DoxyCompactList}\small\item\em Update status page. \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_gaef9dd589404e22463d93d474713c5bb7}{Status\+Page\+Buttons}} \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___public___functions_gaa06ae01139a52281def60880ce105064}{check\+Status\+Page\+Touch}} (void)
+\begin{DoxyCompactList}\small\item\em Check if any buttons have been pressed on the status page. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int {\bfseries status\+Page\+\_\+line\+YCoord} \mbox{[}4\mbox{]} = \{70, 105, 140, 175\}
+\item 
+const int {\bfseries status\+Page\+\_\+status\+Label\+XCoord} = 10
+\item 
+const int {\bfseries status\+Page\+\_\+status\+XCoord} = 305
+\item 
+const int {\bfseries status\+Page\+\_\+buttons\+XCoord} \mbox{[}3\mbox{]} = \{20, 190, 310\}
+\item 
+const int {\bfseries status\+Page\+\_\+buttons\+YCoord} = 220
+\item 
+const int {\bfseries status\+Page\+\_\+buttons\+Height} = 40
+\item 
+const int {\bfseries status\+Page\+\_\+buttons\+Width} = 150
+\item 
+const int {\bfseries status\+Page\+\_\+lock\+Button\+Height} = 40
+\item 
+const int {\bfseries status\+Page\+\_\+lock\+Button\+Width} = 105
+\item 
+TS\+\_\+\+State\+Type\+Def {\bfseries tsc\+\_\+state\+\_\+status\+Page}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\+: Handles Status page of the UI 
+
+\begin{DoxyAuthor}{Author}
+\+: Ali Nanji 
+\end{DoxyAuthor}
+This file contains all the methods required to manage the status page of the UI. The status page displays all the warnings related to each of the peripherals. The public functions\textquotesingle{} prototypes have been defined in \mbox{\hyperlink{status_page_8h}{status\+Page.\+h}} 

@@ -1,0 +1,109 @@
+\hypertarget{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions}{}\doxysection{MEMBRANE\+\_\+\+KEY\+\_\+\+PAD\+\_\+\+Private\+\_\+\+Functions}
+\label{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions}\index{MEMBRANE\_KEY\_PAD\_Private\_Functions@{MEMBRANE\_KEY\_PAD\_Private\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_ga1130589886f09ef66240e609c62bd67b}{reset\+Membrane\+Pins}} (int start, int stop, GPIO\+\_\+\+Pin\+State value)
+\begin{DoxyCompactList}\small\item\em Resets Membrane pins to give value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gad1f3c7c1e06186c2591e6f5d77ee8938}{initialize\+Membrane}} (GPIO\+\_\+\+Init\+Type\+Def $\ast$gpio, GPIO\+\_\+\+Type\+Def $\ast$GPIOx, uint16\+\_\+t GPIO\+\_\+\+Pin, uint16\+\_\+t pos)
+\begin{DoxyCompactList}\small\item\em Initializes membrane keybad pins, to input or output. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gaa4517c73db23a65b0ff04cc95744134e}{get\+Membrane\+Num}} (int col, int row)
+\begin{DoxyCompactList}\small\item\em calculates number pressed depending on membrane keypad input \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gabd070d1ca3b1a5ef13e17826f5a1c6d4}{read\+Membrane}} ()
+\begin{DoxyCompactList}\small\item\em Checks which button on the membrane keypad is pressed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Private Functions defined in \mbox{\hyperlink{membrane_8c}{membrane.\+c}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gaa4517c73db23a65b0ff04cc95744134e}\label{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gaa4517c73db23a65b0ff04cc95744134e}} 
+\index{MEMBRANE\_KEY\_PAD\_Private\_Functions@{MEMBRANE\_KEY\_PAD\_Private\_Functions}!getMembraneNum@{getMembraneNum}}
+\index{getMembraneNum@{getMembraneNum}!MEMBRANE\_KEY\_PAD\_Private\_Functions@{MEMBRANE\_KEY\_PAD\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{getMembraneNum()}{getMembraneNum()}}
+{\footnotesize\ttfamily int get\+Membrane\+Num (\begin{DoxyParamCaption}\item[{int}]{col,  }\item[{int}]{row }\end{DoxyParamCaption})}
+
+
+
+calculates number pressed depending on membrane keypad input 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & Row number of button pressed \\
+\hline
+{\em col} & Column number of button pressed \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em number} & pressed on the membrane keypad \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gad1f3c7c1e06186c2591e6f5d77ee8938}\label{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gad1f3c7c1e06186c2591e6f5d77ee8938}} 
+\index{MEMBRANE\_KEY\_PAD\_Private\_Functions@{MEMBRANE\_KEY\_PAD\_Private\_Functions}!initializeMembrane@{initializeMembrane}}
+\index{initializeMembrane@{initializeMembrane}!MEMBRANE\_KEY\_PAD\_Private\_Functions@{MEMBRANE\_KEY\_PAD\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{initializeMembrane()}{initializeMembrane()}}
+{\footnotesize\ttfamily void initialize\+Membrane (\begin{DoxyParamCaption}\item[{GPIO\+\_\+\+Init\+Type\+Def $\ast$}]{gpio,  }\item[{GPIO\+\_\+\+Type\+Def $\ast$}]{GPIOx,  }\item[{uint16\+\_\+t}]{GPIO\+\_\+\+Pin,  }\item[{uint16\+\_\+t}]{pos }\end{DoxyParamCaption})}
+
+
+
+Initializes membrane keybad pins, to input or output. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em gpio} & Pointer to the pin structure \\
+\hline
+{\em GPIOx} & Pointer to the gpio type \\
+\hline
+{\em GPIO\+\_\+\+Pin} & Pin number @\+Param pos Position of pin in the all\+Pins array \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gabd070d1ca3b1a5ef13e17826f5a1c6d4}\label{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_gabd070d1ca3b1a5ef13e17826f5a1c6d4}} 
+\index{MEMBRANE\_KEY\_PAD\_Private\_Functions@{MEMBRANE\_KEY\_PAD\_Private\_Functions}!readMembrane@{readMembrane}}
+\index{readMembrane@{readMembrane}!MEMBRANE\_KEY\_PAD\_Private\_Functions@{MEMBRANE\_KEY\_PAD\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{readMembrane()}{readMembrane()}}
+{\footnotesize\ttfamily int read\+Membrane (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks which button on the membrane keypad is pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Value} & of the button pressed on the membrane keypad \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_ga1130589886f09ef66240e609c62bd67b}\label{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___private___functions_ga1130589886f09ef66240e609c62bd67b}} 
+\index{MEMBRANE\_KEY\_PAD\_Private\_Functions@{MEMBRANE\_KEY\_PAD\_Private\_Functions}!resetMembranePins@{resetMembranePins}}
+\index{resetMembranePins@{resetMembranePins}!MEMBRANE\_KEY\_PAD\_Private\_Functions@{MEMBRANE\_KEY\_PAD\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{resetMembranePins()}{resetMembranePins()}}
+{\footnotesize\ttfamily void reset\+Membrane\+Pins (\begin{DoxyParamCaption}\item[{int}]{start,  }\item[{int}]{stop,  }\item[{GPIO\+\_\+\+Pin\+State}]{value }\end{DoxyParamCaption})}
+
+
+
+Resets Membrane pins to give value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & Start index of list to reset \\
+\hline
+{\em stop} & Last index of list to reset \\
+\hline
+{\em value} & New pin state for pins \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

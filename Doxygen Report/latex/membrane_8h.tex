@@ -1,0 +1,24 @@
+\hypertarget{membrane_8h}{}\doxysection{Core/\+Inc/membrane.h File Reference}
+\label{membrane_8h}\index{Core/Inc/membrane.h@{Core/Inc/membrane.h}}
+
+
+\+: Header file for \mbox{\hyperlink{membrane_8c}{membrane.\+c}}.  
+
+
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gadffecb6a54831e212b418c02e3b247d2}{initialize\+Membrane\+Pins}} (void)
+\begin{DoxyCompactList}\small\item\em Initializes all pins that will be used by the membrane keypad The membrane keypad uses pin D8 -\/ D15 on the board. It is configured as follows\+: Mode = Input/\+Output Pull = PULL DOWN Speed = SPEED HIGH. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___m_e_m_b_r_a_n_e___k_e_y___p_a_d___public___functions_gac590ecddcd9eb23aabbd29253c8d57b5}{check\+Mem\+Pin}} (int $\ast$current\+Mem\+Digit\+Count, int $\ast$current\+Mem\+Pin, int membrane\+Pin\+Len)
+\begin{DoxyCompactList}\small\item\em Checks if the PIN entered on the keypad is correct. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\+: Header file for \mbox{\hyperlink{membrane_8c}{membrane.\+c}}. 
+
+\begin{DoxyAuthor}{Author}
+\+: Sahil Modak 
+\end{DoxyAuthor}
+This file contains the function prototypes for all public functions in \mbox{\hyperlink{membrane_8c}{membrane.\+c}} 

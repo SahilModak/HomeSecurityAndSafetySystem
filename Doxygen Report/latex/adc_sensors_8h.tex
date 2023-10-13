@@ -1,0 +1,29 @@
+\hypertarget{adc_sensors_8h}{}\doxysection{Core/\+Inc/adc\+Sensors.h File Reference}
+\label{adc_sensors_8h}\index{Core/Inc/adcSensors.h@{Core/Inc/adcSensors.h}}
+
+
+\+: Header file for \mbox{\hyperlink{adc_sensors_8c}{adc\+Sensors.\+c}}  
+
+
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}stm32f7xx\+\_\+hal.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___a_d_c___public___functions_ga3fd541ccdd8b74e73646a71577926557}{initialize\+Adc\+Sensors}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc)
+\begin{DoxyCompactList}\small\item\em Wrapper method to call initialization methods for ADC peripherals Initialize GPIO pins and ADC. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___a_d_c___public___functions_gaae1e2b2be63bfe71cd925b4c0a71618e}{check\+Water\+Detected}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc\+\_\+water\+Sensor)
+\begin{DoxyCompactList}\small\item\em Checks if any water has been detected. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___a_d_c___public___functions_ga1fa160160e490df9f7834c3f7b94336c}{check\+Fire\+Detected}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc\+\_\+fire\+Sensor)
+\begin{DoxyCompactList}\small\item\em Checks if any flames have been detected. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\+: Header file for \mbox{\hyperlink{adc_sensors_8c}{adc\+Sensors.\+c}} 
+
+\begin{DoxyAuthor}{Author}
+\+: Sahil Modak 
+
+\+: Ali Nanji 
+\end{DoxyAuthor}
+This file contains the function prototypes for all public functions in adc\+Sensor.\+c 

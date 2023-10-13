@@ -1,0 +1,92 @@
+\hypertarget{group___m_a_i_n___private___functions}{}\doxysection{MAIN\+\_\+\+Private\+\_\+\+Functions}
+\label{group___m_a_i_n___private___functions}\index{MAIN\_Private\_Functions@{MAIN\_Private\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{group___m_a_i_n___private___functions_ga840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\begin{DoxyCompactList}\small\item\em The application entry point. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___m_a_i_n___private___functions_gae494a9643f29b87d6d81e5264e60e57b}\label{group___m_a_i_n___private___functions_gae494a9643f29b87d6d81e5264e60e57b}} 
+void {\bfseries HAL\+\_\+\+UART\+\_\+\+Rx\+Cplt\+Callback} (UART\+\_\+\+Handle\+Type\+Def $\ast$huart)
+\item 
+void \mbox{\hyperlink{group___m_a_i_n___private___functions_ga1730ffe1e560465665eb47d9264826f9}{Error\+\_\+\+Handler}} (void)
+\begin{DoxyCompactList}\small\item\em This function is executed in case of error occurrence. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___m_a_i_n___private___functions_ga70af21c671abfcc773614a9a4f63d920}{System\+Clock\+\_\+\+Config}} (void)
+\begin{DoxyCompactList}\small\item\em System Clock Configuration. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Private Functions defined in \mbox{\hyperlink{main_8c}{main.\+c}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___m_a_i_n___private___functions_ga1730ffe1e560465665eb47d9264826f9}\label{group___m_a_i_n___private___functions_ga1730ffe1e560465665eb47d9264826f9}} 
+\index{MAIN\_Private\_Functions@{MAIN\_Private\_Functions}!Error\_Handler@{Error\_Handler}}
+\index{Error\_Handler@{Error\_Handler}!MAIN\_Private\_Functions@{MAIN\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{Error\_Handler()}{Error\_Handler()}}
+{\footnotesize\ttfamily void Error\+\_\+\+Handler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+This function is executed in case of error occurrence. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___m_a_i_n___private___functions_ga840291bc02cba5474a4cb46a9b9566fe}\label{group___m_a_i_n___private___functions_ga840291bc02cba5474a4cb46a9b9566fe}} 
+\index{MAIN\_Private\_Functions@{MAIN\_Private\_Functions}!main@{main}}
+\index{main@{main}!MAIN\_Private\_Functions@{MAIN\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+The application entry point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em int} & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___m_a_i_n___private___functions_ga70af21c671abfcc773614a9a4f63d920}\label{group___m_a_i_n___private___functions_ga70af21c671abfcc773614a9a4f63d920}} 
+\index{MAIN\_Private\_Functions@{MAIN\_Private\_Functions}!SystemClock\_Config@{SystemClock\_Config}}
+\index{SystemClock\_Config@{SystemClock\_Config}!MAIN\_Private\_Functions@{MAIN\_Private\_Functions}}
+\doxysubsubsection{\texorpdfstring{SystemClock\_Config()}{SystemClock\_Config()}}
+{\footnotesize\ttfamily void System\+Clock\+\_\+\+Config (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+System Clock Configuration. 
+
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+System Clock Configuration The system Clock is configured as follow \+: System Clock source = PLL (HSE) SYSCLK(\+Hz) = 200000000 HCLK(\+Hz) = 200000000 AHB Prescaler = 1 APB1 Prescaler = 4 APB2 Prescaler = 2 HSE Frequency(\+Hz) = 25000000 PLL\+\_\+M = 12 PLL\+\_\+N = 192 PLL\+\_\+P = 2 PLL\+\_\+Q = 9 PLLSAI\+\_\+P = 8 VDD(\+V) = 3.\+3 Main regulator output voltage = Scale1 mode Flash Latency(\+WS) = 6 
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+Configure the main internal regulator output voltage
+
+Initializes the RCC Oscillators according to the specified parameters in the RCC\+\_\+\+Osc\+Init\+Type\+Def structure.
+
+Activate the Over-\/\+Drive mode
+
+Initializes the CPU, AHB and APB buses clocks

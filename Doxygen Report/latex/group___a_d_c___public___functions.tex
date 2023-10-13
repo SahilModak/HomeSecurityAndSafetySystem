@@ -1,0 +1,77 @@
+\hypertarget{group___a_d_c___public___functions}{}\doxysection{ADC\+\_\+\+Public\+\_\+\+Functions}
+\label{group___a_d_c___public___functions}\index{ADC\_Public\_Functions@{ADC\_Public\_Functions}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___a_d_c___public___functions_ga3fd541ccdd8b74e73646a71577926557}{initialize\+Adc\+Sensors}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc)
+\begin{DoxyCompactList}\small\item\em Wrapper method to call initialization methods for ADC peripherals Initialize GPIO pins and ADC. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___a_d_c___public___functions_gaae1e2b2be63bfe71cd925b4c0a71618e}{check\+Water\+Detected}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc)
+\begin{DoxyCompactList}\small\item\em Checks if any water has been detected. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___a_d_c___public___functions_ga1fa160160e490df9f7834c3f7b94336c}{check\+Fire\+Detected}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc)
+\begin{DoxyCompactList}\small\item\em Checks if any flames have been detected. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Public Functions defined in \mbox{\hyperlink{adc_sensors_8c}{adc\+Sensors.\+c}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group___a_d_c___public___functions_ga1fa160160e490df9f7834c3f7b94336c}\label{group___a_d_c___public___functions_ga1fa160160e490df9f7834c3f7b94336c}} 
+\index{ADC\_Public\_Functions@{ADC\_Public\_Functions}!checkFireDetected@{checkFireDetected}}
+\index{checkFireDetected@{checkFireDetected}!ADC\_Public\_Functions@{ADC\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{checkFireDetected()}{checkFireDetected()}}
+{\footnotesize\ttfamily bool check\+Fire\+Detected (\begin{DoxyParamCaption}\item[{ADC\+\_\+\+Handle\+Type\+Def $\ast$}]{hadc }\end{DoxyParamCaption})}
+
+
+
+Checks if any flames have been detected. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hadc} & Pointer to the ADC Handle Structure \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em True} & if flames have been detected, false otherwise \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___a_d_c___public___functions_gaae1e2b2be63bfe71cd925b4c0a71618e}\label{group___a_d_c___public___functions_gaae1e2b2be63bfe71cd925b4c0a71618e}} 
+\index{ADC\_Public\_Functions@{ADC\_Public\_Functions}!checkWaterDetected@{checkWaterDetected}}
+\index{checkWaterDetected@{checkWaterDetected}!ADC\_Public\_Functions@{ADC\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{checkWaterDetected()}{checkWaterDetected()}}
+{\footnotesize\ttfamily bool check\+Water\+Detected (\begin{DoxyParamCaption}\item[{ADC\+\_\+\+Handle\+Type\+Def $\ast$}]{hadc }\end{DoxyParamCaption})}
+
+
+
+Checks if any water has been detected. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hadc} & Pointer to the ADC Handle Structure \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em True} & if water has been detected, false otherwise \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{group___a_d_c___public___functions_ga3fd541ccdd8b74e73646a71577926557}\label{group___a_d_c___public___functions_ga3fd541ccdd8b74e73646a71577926557}} 
+\index{ADC\_Public\_Functions@{ADC\_Public\_Functions}!initializeAdcSensors@{initializeAdcSensors}}
+\index{initializeAdcSensors@{initializeAdcSensors}!ADC\_Public\_Functions@{ADC\_Public\_Functions}}
+\doxysubsubsection{\texorpdfstring{initializeAdcSensors()}{initializeAdcSensors()}}
+{\footnotesize\ttfamily void initialize\+Adc\+Sensors (\begin{DoxyParamCaption}\item[{ADC\+\_\+\+Handle\+Type\+Def $\ast$}]{hadc }\end{DoxyParamCaption})}
+
+
+
+Wrapper method to call initialization methods for ADC peripherals Initialize GPIO pins and ADC. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hadc} & Pointer to the ADC Handle Structure \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

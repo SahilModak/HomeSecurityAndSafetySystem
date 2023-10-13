@@ -1,0 +1,23 @@
+D0 --> Touch Sensor
+D1 --> Buzzer
+D2 --> 
+D3 --> Servo Motor
+D4 --> 
+D5 --> 
+D6 --> 
+D7 --> 
+D8  |
+D9  |
+D10 |
+D11 | --> Membrane Key Pad
+D12 |
+D13 |
+D14 |
+D15 |
+
+A0 --> Water Sensor
+A1 --> Flame Sensor
+A2 --> 
+A3 --> 
+A4 --> Bluetooth Transmit
+A5 --> Bluetooth Receive

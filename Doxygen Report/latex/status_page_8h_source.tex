@@ -1,0 +1,24 @@
+\hypertarget{status_page_8h_source}{}\doxysection{status\+Page.\+h}
+\label{status_page_8h_source}\index{Core/Inc/statusPage.h@{Core/Inc/statusPage.h}}
+\mbox{\hyperlink{status_page_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_gaef9dd589404e22463d93d474713c5bb7}{StatusPageButtons}}\ \{}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_ggaef9dd589404e22463d93d474713c5bb7a438b68412f24003b09e0993b62dc7b48}{LOCK}},\ \ \ \ \ \ }
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_ggaef9dd589404e22463d93d474713c5bb7a271edf5041b6e7d6307edccd670dc8dc}{MUTE}},\ \ \ \ \ \ }
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_ggaef9dd589404e22463d93d474713c5bb7a2c65e1f3e87da84f74b4fc2a908bf69d}{DISCARD}},\ \ \ }
+\DoxyCodeLine{00025\ \ \ \ \ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_ggaef9dd589404e22463d93d474713c5bb7ad8afbf0a5cc2f46f848dc93c2aca9369}{DOOR\_LOCK}},\ }
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_ggaef9dd589404e22463d93d474713c5bb7ac157bdf0b85a40d2619cbc8bc1ae5fe2}{NONE}}\ \ \ \ \ \ \ }
+\DoxyCodeLine{00027\ \};}
+\DoxyCodeLine{00032\ \textcolor{comment}{//\ Display\ basic\ status\ page\ without\ any\ warnings}}
+\DoxyCodeLine{00033\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___public___functions_ga0a72a10b0341729cf5fa55f3657a3a5a}{displayStatusPage}}(\textcolor{keywordtype}{bool}\ muted);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{comment}{//\ Update\ status\ page\ with\ warnings}}
+\DoxyCodeLine{00036\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___public___functions_gad659bf6f2b279ee1828e146aa1df0afc}{updateStatusPage}}(\textcolor{keywordtype}{bool}\ waterLeak,\ \textcolor{keywordtype}{bool}\ fire,\ \textcolor{keywordtype}{bool}\ doorLocked,\ \textcolor{keywordtype}{bool}\ bellPressed,\ \textcolor{keywordtype}{bool}\ muted);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{comment}{//\ Check\ if\ any\ button\ on\ the\ status\ page\ has\ been\ clicked\ on\ and\ return\ enum\ defined\ above\ accordingly}}
+\DoxyCodeLine{00039\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___enum_gaef9dd589404e22463d93d474713c5bb7}{StatusPageButtons}}\ \mbox{\hyperlink{group___s_t_a_t_u_s___p_a_g_e___public___functions_gaa06ae01139a52281def60880ce105064}{checkStatusPageTouch}}(\textcolor{keywordtype}{void});}
+
+\end{DoxyCode}

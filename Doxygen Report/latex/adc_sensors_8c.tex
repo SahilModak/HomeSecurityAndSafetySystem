@@ -1,0 +1,52 @@
+\hypertarget{adc_sensors_8c}{}\doxysection{Core/\+Src/adc\+Sensors.c File Reference}
+\label{adc_sensors_8c}\index{Core/Src/adcSensors.c@{Core/Src/adcSensors.c}}
+
+
+\+: Initializes and handles peripherals that require ADC (Analog to digital conversion)  
+
+
+{\ttfamily \#include \char`\"{}adc\+Sensors.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}stm32f7xx\+\_\+hal.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define {\bfseries wait\+\_\+delay}~HAL\+\_\+\+Delay
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{group___a_d_c___private___functions_ga8a8a1a5baf3d58964f30daa1d05e74de}{config\+Read\+ADC}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc, uint32\+\_\+t channel\+Num)
+\begin{DoxyCompactList}\small\item\em Read ADC value on provided channel Read adc value on specified channel and return converted voltage reading. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___a_d_c___public___functions_ga3fd541ccdd8b74e73646a71577926557}{initialize\+Adc\+Sensors}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc)
+\begin{DoxyCompactList}\small\item\em Wrapper method to call initialization methods for ADC peripherals Initialize GPIO pins and ADC. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___a_d_c___public___functions_gaae1e2b2be63bfe71cd925b4c0a71618e}{check\+Water\+Detected}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc)
+\begin{DoxyCompactList}\small\item\em Checks if any water has been detected. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group___a_d_c___public___functions_ga1fa160160e490df9f7834c3f7b94336c}{check\+Fire\+Detected}} (ADC\+\_\+\+Handle\+Type\+Def $\ast$hadc)
+\begin{DoxyCompactList}\small\item\em Checks if any flames have been detected. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const float {\bfseries analog\+Read\+Range} = 1023.\+0
+\item 
+const float {\bfseries max\+Voltage} = 5.\+0
+\item 
+const float {\bfseries water\+Voltage\+Threshold} = 3.\+0
+\item 
+const float {\bfseries fire\+Voltage\+Threshold} = 4.\+5
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries GPIO\+\_\+\+Init\+Struct\+\_\+\+Water\+Sensor}
+\item 
+GPIO\+\_\+\+Init\+Type\+Def {\bfseries GPIO\+\_\+\+Init\+Struct\+\_\+\+Fire\+Sensor}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\+: Initializes and handles peripherals that require ADC (Analog to digital conversion) 
+
+\begin{DoxyAuthor}{Author}
+\+: Sahil Modak 
+
+\+: Ali Nanji 
+\end{DoxyAuthor}
+This file contains all the methods required to initialize and handle the peripherals that require ADC, which are the water sensor and the flame sensor. The public functions\textquotesingle{} prototypes have been defined in adc\+Sensor.\+h 
